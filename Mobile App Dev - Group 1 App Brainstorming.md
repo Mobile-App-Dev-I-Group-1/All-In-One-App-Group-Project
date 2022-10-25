@@ -59,16 +59,16 @@ Mobile App Dev - Group 1 App Brainstorming
 6.Budgeting app **X** **X**
  > app that can help the user manage thier money by foretelling future spening costs and expenses
 
-7.Note taker/Diary app **X** **X**
-8.Inventory organizer/scanner **X**
-9.Medicine Reminder **X** **X**
+7. Note taker/Diary app **X** **X**
+8. Inventory organizer/scanner **X**
+9. Medicine Reminder **X** **X**
 
 ## Top 5 Voted
-1.To-Do List App
-2.Heads-or-Tails/Random Number Generator/Spin the wheel/ Magic Ball/ all in one
-3.Budgeting app
-4.Medicine Reminder
-5.Note Taker/Diary App
+1. To-Do List App
+2. Heads-or-Tails/Random Number Generator/Spin the wheel/ Magic Ball/ all in one
+3. Budgeting app
+4. Medicine Reminder
+5. Note Taker/Diary App
 
 # Top 5 New App Ideas - Evaluate and Categorize
 1. All-In-One! (Heads-or-Tails/Random Number Generator/Spin the wheel/ Magic Ball) App
