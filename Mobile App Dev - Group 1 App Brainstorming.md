@@ -27,16 +27,16 @@ Mobile App Dev - Group 1 App Brainstorming
 19. Budgeting app **X** **X** - App that can help the user manage thier money by foretelling future spening costs and expenses
 20. Gambling Sim **X** - A game that simulates being in a casino
 
-21.Tap the cookie (counter game, turn in taps for upgrade) - Clicking game
-22.pedometer **X** - Calculates your steps per day
-23.Note taker/Diary app **X** **X** - An apps in which the user is able to take notes and lock them away using a password/biometrics.
-24.connect the dots - An app in which you can play connect the dots
-25.Inventory organizer/scanner **X** **X** - An app that keeps track of inventory that is scanned into it.
-26.Medicine Reminder **X** **X** - An app that reminds the user to take their scheduled-medicine
-27.Flashlight app - An app that turns on the phone's flashlight feature
-28.Food ordering - Order food using the app 
-29.memory game with images from own gallery - Creates a memory game using the photos in the phone gallery
-30.last parked location **X** - Stores location of the last parked location 
+21. Tap the cookie (counter game, turn in taps for upgrade) - Clicking game
+22. pedometer **X** - Calculates your steps per day
+23. Note taker/Diary app **X** **X** - An apps in which the user is able to take notes and lock them away using a password/biometrics.
+24. connect the dots - An app in which you can play connect the dots
+25. Inventory organizer/scanner **X** **X** - An app that keeps track of inventory that is scanned into it.
+26. Medicine Reminder **X** **X** - An app that reminds the user to take their scheduled-medicine
+27. Flashlight app - An app that turns on the phone's flashlight feature
+28. Food ordering - Order food using the app 
+29. memory game with images from own gallery - Creates a memory game using the photos in the phone gallery
+30. last parked location **X** - Stores location of the last parked location 
 
 
 
