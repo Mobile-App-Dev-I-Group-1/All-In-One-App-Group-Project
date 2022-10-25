@@ -16,7 +16,7 @@ Mobile App Dev - Group 1 App Brainstorming
 9. Stopwatch App **X** - App that starts/stops a stopwatch
 10. 2048 Game - Play the popular 2048 game
 
-11.Quiz Taking App - An app that creates and takes the quiz 
+11. Quiz Taking App - An app that creates and takes the quiz 
 12. Reminder App - App that creates and reminds users about a certain task/event
 13. Idle Clicker Game**X** - Game that the user can play by just clicking on the screen multiple times to gain points/experience.
 14. "Days Till" App **X** **X** - App That ask the user for a future date, then displays the number of days till that date
