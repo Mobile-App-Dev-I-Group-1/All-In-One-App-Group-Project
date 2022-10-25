@@ -3,7 +3,7 @@ Mobile App Dev - Group 1 App Brainstorming
 
 #### Group 1: Adrian Perez, David Martinez, Jonathan Martinez Valdez
 
-
+ 
 ## 30 New App Ideas 
 1. Flappy Bird Knockoff Game - A game that is similar to the infamous Flappy Bird game
 2. Weather App - Displays the weather of a certain location
