@@ -1,4 +1,4 @@
-# Milestone 1 - ALl-In-One App
+# Milestone 1 - All-In-One App
 #### Group 1: Adrian Perez, David Martinez, Jonathan Martinez Valdez
 
 ## Table of Contents
