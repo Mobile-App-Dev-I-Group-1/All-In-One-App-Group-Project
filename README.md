@@ -42,29 +42,44 @@ The All-In-One (Heads or Tails/Random Number Generator/Spin The Wheel/ Magic Bal
 
 ### 2. Screen Archetypes
 
-- [list first screen here]
-  - [list associated required story here]
-  - ...
-- [list second screen here]
-  - [list associated required story here]
-  - ...
+- Heads-Or-Tails
+  - User can interact with coin to flip and get one of two results
+  
+- RNG
+  - User can interact with simplified GUI to produce a random number
+  
+- Spin The Wheel
+  - User can spin a wheel to randomly choose between a multitude of options
+  
+- Magic Ball
+  - User can interact with a 'Magic Ball' to give random advice
+  
+- History
+  - User can preview a history of their randomly generated outcomes
 
 ### 3. Navigation
 
 **Tab Navigation** (Tab to Screen)
 
-* [fill out your first tab]
-* [fill out your second tab]
-* [fill out your third tab]
+* Heads-Or-Tails
+* RNG
+* Spin The Wheel
+* Magic Ball
+* History
 
 **Flow Navigation** (Screen to Screen)
 
-- [list first screen here]
-  - [list screen navigation here]
-  - ...
-- [list second screen here]
-  - [list screen navigation here]
-  - ...
+- Heads-Or-Tails
+  - History
+  
+- RNG
+  - History
+  
+- Spin the Wheel
+  - History
+  
+-Magic Ball
+  - History
 
 ## Wireframes
 
