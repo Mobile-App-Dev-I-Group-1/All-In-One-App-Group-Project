@@ -84,7 +84,7 @@ The All-In-One (Heads or Tails/Random Number Generator/Spin The Wheel/ Magic Bal
 ## Wireframes
 
 [Add picture of your hand sketched wireframes in this section]
-<img src="./IMG_0600.heic" width=600>
+<img src="./WireFrame.png" width=600>
 
 ### [BONUS] Digital Wireframes & Mockups
 
