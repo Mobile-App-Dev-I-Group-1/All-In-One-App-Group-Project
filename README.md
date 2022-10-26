@@ -33,7 +33,6 @@ The All-In-One (Heads or Tails/Random Number Generator/Spin The Wheel/ Magic Bal
 * Random Number Generator
 * Spin the Wheel
 * Magic Ball
-* 
 **Stretch Features**
 
 * Add animations to each method
