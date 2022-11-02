@@ -86,5 +86,5 @@ The All-In-One (Heads or Tails/Random Number Generator/Spin The Wheel/ Magic Bal
 <img src="./WireFrame.png" width=600>
 
 ## Week 1 Sprint
-# gif of progress:
+### gif of completed Week 1 progress:
 <img src="./Sprint1.gif" width=600>
