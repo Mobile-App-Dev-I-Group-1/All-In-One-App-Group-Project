@@ -8,47 +8,11 @@
     tools:context=".MainActivity" >
 
     <FrameLayout
-        android:id="@+id/frame_layout_try"
+        android:id="@+id/frame_container"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        app:layout_constraintBottom_toTopOf="@+id/bottom_navigation"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textAlignment="center"
-        android:text="COIN FLIP"
-        android:textStyle="bold"
-        android:textSize="30dp"
-        android:layout_marginTop="5dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-
-    <ImageView
-        android:id="@+id/imageView_wheel"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        tools:src="@tools:sample/avatars"
-        android:layout_marginBottom="280dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"/>
-
-    <Button
-        android:id="@+id/button_flip"
-        android:layout_width="130dp"
-        android:layout_height="50dp"
-        android:text="Flip"
-        android:layout_marginBottom="190dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"/>
+        android:layout_above="@+id/bottom_navigation"
+        />
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
     android:id="@+id/bottom_navigation"
