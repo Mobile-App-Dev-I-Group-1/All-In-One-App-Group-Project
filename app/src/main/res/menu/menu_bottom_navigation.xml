@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/coin_flip"
+        android:icon="@drawable/ic_baseline_monetization_on_24"
+        android:title="Coin Flip" />
+
+    <item
+        android:id="@+id/rng"
+        android:icon="@drawable/ic_baseline_polymer_24"
+        android:title="RNG" />
+
+    <item
+        android:id="@+id/spin_the_wheel"
+        android:icon="@drawable/ic_baseline_arrow_drop_down_circle_24"
+        android:title="Wheel" />
+
+    <item
+        android:id="@+id/magic_ball"
+        android:icon="@drawable/ic_baseline_filter_8_24"
+        android:title="Magic Ball" />
+
+    <item
+        android:id="@+id/history"
+        android:icon="@drawable/ic_baseline_history_24"
+        android:title="History" />
+
+</menu>
