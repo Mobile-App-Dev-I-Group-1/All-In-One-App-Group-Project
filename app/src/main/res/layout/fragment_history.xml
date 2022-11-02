@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragment_history">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <TextView
+            android:id="@+id/textView_history"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="HISTORY"
+            android:textAlignment="center"
+            android:textSize="30dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toTopOf="@id/textView_coin_flip" />
+
+        <TextView
+            android:id="@+id/textView_coin_flip"
+            android:text="Coin Flip History"
+            android:textSize="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/textView_history"/>
+
+        <TextView
+            android:id="@+id/textView_coin_flip_history"
+            android:text="Nothing Yet"
+            android:textSize="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            app:layout_constraintTop_toBottomOf="@+id/textView_coin_flip"/>
+        <TextView
+            android:id="@+id/textView_rng"
+            android:text="RNG History"
+            android:textSize="25dp"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/textView_coin_flip_history"/>
+        <TextView
+            android:id="@+id/textView_rng_history"
+            android:text="Nothing Yet"
+            android:textAlignment="center"
+            android:textSize="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/textView_rng"/>
+        <TextView
+            android:id="@+id/textView_spin_the_wheel"
+            android:text="Wheel Spin History"
+            android:textSize="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/textView_rng_history"/>
+        <TextView
+            android:id="@+id/textView_spin_the_wheel_history"
+            android:text="Nothing Yet"
+            android:textAlignment="center"
+            android:textSize="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/textView_spin_the_wheel"/>
+        <TextView
+            android:id="@+id/textView_magic_ball"
+            android:text="Magic Ball History"
+            android:textSize="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            app:layout_constraintTop_toBottomOf="@id/textView_spin_the_wheel_history"/>
+        <TextView
+            android:id="@+id/textView_magic_ball_history"
+            android:text="Nothing Yet"
+            android:textAlignment="center"
+            android:textSize="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/textView_magic_ball"/>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>
