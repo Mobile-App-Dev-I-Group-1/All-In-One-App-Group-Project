@@ -1,18 +1,41 @@
 package com.example.allinone
 
 import android.os.Bundle
+import android.widget.Button
+import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
+import com.google.android.gms.common.api.GoogleApiClient
 import com.google.android.material.bottomnavigation.BottomNavigationView
+import com.google.android.material.button.MaterialButton
 import com.google.android.material.navigation.NavigationBarView
+import org.w3c.dom.Text
 
-class MainActivity : AppCompatActivity() {
+public class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
 //      lateinit var bottomNav : BottomNavigationView
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+        val username:TextView = findViewById<TextView>(R.id.username )
+
+
+     //   TextView password = (TextView) findViewById(R.id.password)
+
+        //MaterialButton login_button = (Button) findViewById(R.id.login_button)
+
+
+
+
+
+
+
+
+
+
+
         val navBar = findViewById<BottomNavigationView>(R.id.bottom_navigation)
         loadFragment(fragment_coin_flip())
 
@@ -78,5 +101,7 @@ class MainActivity : AppCompatActivity() {
         transaction.replace(R.id.frame_container,fragment)
         transaction.addToBackStack(null)
         transaction.commit()
+
     }
+
 }
