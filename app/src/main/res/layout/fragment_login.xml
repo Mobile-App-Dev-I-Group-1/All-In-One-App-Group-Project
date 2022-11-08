@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:id="@+id/relativeLayout"
-    android:background="@drawable/background">
+    android:background="@drawable/background"
+    android:id="@+id/login_page">
 
     <TextView
         android:id="@+id/Sign_in"
@@ -92,6 +92,7 @@
         android:gravity="center">
 
         <ImageView
+            android:id="@+id/google_button"
             android:layout_width="48dp"
             android:layout_height="48dp"
             android:layout_margin="20dp"
