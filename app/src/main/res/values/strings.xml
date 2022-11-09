@@ -7,4 +7,5 @@
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
     <string name="google_login_prompt">Click on the button to log in with your google account!</string>
+    <string name="party_hat">Party Hat</string>
 </resources>
