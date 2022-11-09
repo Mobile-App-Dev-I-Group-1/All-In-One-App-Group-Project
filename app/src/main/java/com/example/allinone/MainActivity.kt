@@ -90,13 +90,8 @@ public class MainActivity : AppCompatActivity() {
     private fun signIn() {
         val signInIntent = mGoogleSignInClient.signInIntent
         startActivityForResult(signInIntent, RC_SIGN_IN)
-
     }
 
-    private fun signInFunctions() {
-
-
-    }
     companion object{
         const val RC_SIGN_IN = 9001
     }

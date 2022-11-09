@@ -2,7 +2,6 @@
   <library name="Gradle: com.facebook.stetho:stetho-okhttp3:1.5.1@aar">
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/d775e937490d25b93f19ec9f9cff1544/transformed/stetho-okhttp3-1.5.1/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/d775e937490d25b93f19ec9f9cff1544/transformed/stetho-okhttp3-1.5.1/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/d775e937490d25b93f19ec9f9cff1544/transformed/stetho-okhttp3-1.5.1/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC>
