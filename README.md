@@ -95,3 +95,17 @@ The All-In-One (Heads or Tails/Random Number Generator/Spin The Wheel/ Magic Bal
 
 ### gif of completed Week 1 progress:
 <img src="./Sprint1.gif" width=600>
+
+------------------
+
+## Week 2 Sprint
+
+### Tasks:
+- [x] complete algorithms for heads or tails and rng
+- [x] implement the functions of screens heads or tails and rng
+- [x] customize screens heads or tails and rng
+- [x] create splash screen for app opening
+- [x] create login screen for user
+
+### gif of completed Week 2 progress:
+<img src="./Sprint2.gif" width=600>
