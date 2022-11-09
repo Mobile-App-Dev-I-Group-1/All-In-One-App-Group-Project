@@ -8,6 +8,7 @@
         <entry key="app/src/main/res/layout/fragment_coin_flip.xml" value="0.21784420289855072" />
         <entry key="app/src/main/res/layout/fragment_home.xml" value="0.2765625" />
         <entry key="app/src/main/res/layout/fragment_notifications.xml" value="0.2765625" />
+        <entry key="app/src/main/res/layout/fragment_rng.xml" value="0.24583333333333332" />
         <entry key="app/src/main/res/menu/bottom_nav_menu.xml" value="0.2765625" />
         <entry key="app/src/main/res/menu/menu_bottom_navigation.xml" value="0.2765625" />
       </map>

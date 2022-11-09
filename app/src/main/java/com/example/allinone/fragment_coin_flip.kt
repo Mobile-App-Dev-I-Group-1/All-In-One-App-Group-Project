@@ -6,7 +6,12 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
+import android.widget.ImageView
+import android.widget.TextView
 import android.widget.Toast
+import kotlinx.coroutines.delay
+import okhttp3.internal.wait
+import java.util.concurrent.TimeUnit
 
 // TODO: Rename parameter arguments, choose names that match
 // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -38,8 +43,56 @@ class fragment_coin_flip : Fragment() {
         // Inflate the layout for this fragment
         val view =  inflater.inflate(R.layout.fragment_coin_flip, container, false)
         val button_flip = view.findViewById<Button>(R.id.button_flip)
+        var textView_choice = view.findViewById<TextView>(R.id.textView_choice)
+        var imageView_coin = view.findViewById<ImageView>(R.id.imageView_coin)
+        var last_coin = ""
+        var streak = 1
+        var holder = ""
         button_flip.setOnClickListener{
-            Toast.makeText(context, "Test", Toast.LENGTH_LONG).show()
+            val choice = (0..1).random()
+            if (choice == 0){
+                if (last_coin == "Tails") {
+                    streak = 1
+                    textView_choice.text = "Heads!"
+                    imageView_coin.setImageResource(R.drawable.img_coin_4)
+                    last_coin = "Heads"
+                }
+                else if (last_coin == "Heads"){
+                    streak = streak + 1
+                    holder = "Tails Again x" + streak.toString() + "!"
+                    textView_choice.text = holder
+                    imageView_coin.setImageResource(R.drawable.img_coin_5)
+                    last_coin = "Heads"
+                }
+                else{
+                    textView_choice.text = "Heads"
+                    imageView_coin.setImageResource(R.drawable.img_coin_6)
+                    last_coin = "Heads"
+                }
+            }
+            else if (choice == 1){
+                if (last_coin == "Heads") {
+                    streak = 1
+                    textView_choice.text = "Tails!"
+                    imageView_coin.setImageResource(R.drawable.img_coin_1)
+                    last_coin = "Tails"
+                }
+                else if (last_coin == "Tails"){
+                    streak = streak + 1
+                    holder = "Tails Again x" + streak.toString() + "!"
+                    textView_choice.text = holder
+                    imageView_coin.setImageResource(R.drawable.img_coin_2)
+                    last_coin = "Tails"
+                }
+                else{
+                    textView_choice.text = "Tails"
+                    imageView_coin.setImageResource(R.drawable.img_coin_3)
+                    last_coin = "Tails"
+                }
+            }
+            else {
+                textView_choice.text = "Something went wrong."
+            }
         }
         return view
     }

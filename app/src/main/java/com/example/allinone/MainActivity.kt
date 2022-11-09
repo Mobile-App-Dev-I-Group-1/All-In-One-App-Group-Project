@@ -43,23 +43,23 @@ public class MainActivity : AppCompatActivity() {
         mGoogleSignInClient = GoogleSignIn.getClient(this, gso)
 
         val googleLoginButton: ImageView = findViewById<ImageView>(R.id.google_button)
-
         googleLoginButton.setOnClickListener {
             signIn()
 
             setContentView(R.layout.activity_main)
+            loadFragment(fragment_coin_flip())
             val navBar = findViewById<BottomNavigationView>(R.id.bottom_navigation)
 
             navBar.setOnItemSelectedListener { item ->
                 when (item.itemId) {
                     R.id.coin_flip -> {
                         loadFragment(fragment_coin_flip())
-                        Toast.makeText(this, "This is a test also", Toast.LENGTH_SHORT).show()
+//                        Toast.makeText(this, "This is a test also", Toast.LENGTH_SHORT).show()
                         true
                     }
                     R.id.rng -> {
                         loadFragment(fragment_rng())
-                        Toast.makeText(this, "This is a test", Toast.LENGTH_SHORT).show()
+//                        Toast.makeText(this, "This is a test", Toast.LENGTH_SHORT).show()
                         true
                     }
                     R.id.spin_the_wheel -> {

@@ -5,6 +5,9 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.*
+import kotlin.math.roundToInt
+import kotlin.math.roundToLong
 
 // TODO: Rename parameter arguments, choose names that match
 // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -34,7 +37,29 @@ class fragment_rng : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_rng, container, false)
+        val view =  inflater.inflate(R.layout.fragment_rng, container, false)
+        val button_rng = view.findViewById<Button>(R.id.button_rng)
+        var editText = view.findViewById<EditText>(R.id.editText_rng)
+        var imageView_rng = view.findViewById<ImageView>(R.id.imageView_rng)
+        var textView_rng_number = view.findViewById<TextView>(R.id.textView_rng_number)
+        var textView_chance = view.findViewById<TextView>(R.id.textView_chance)
+        var random_number = 0
+        var chance = 0.00
+        var holder2 = ""
+        button_rng.setOnClickListener{
+            if (editText.getText().toString().trim().isNotEmpty()) {
+            var number = editText.text.toString().toInt()
+//            Toast.makeText(context, number, Toast.LENGTH_SHORT).show()
+//            textView_rng_number.text = number
+            random_number = (1..number).random()
+            chance = 1.toDouble()/number
+            chance = (chance * 1000).roundToInt() / 10.00
+            holder2 = chance.toString() + "%"
+            textView_chance.text = holder2
+            textView_rng_number.text = random_number.toString()
+            }
+        }
+        return view
     }
 
     companion object {
