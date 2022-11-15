@@ -13,6 +13,7 @@
         >
 
         <TextView
+            android:id="@+id/textView_rng_title"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="RNG"
@@ -26,9 +27,10 @@
 
         <ImageView
             android:id="@+id/imageView_rng"
-            android:layout_width="150dp"
-            android:layout_height="100dp"
-            android:src="@drawable/img_dice"
+            android:scaleType="centerInside"
+            android:layout_width="109dp"
+            android:layout_height="109dp"
+            android:src="@drawable/img_dice_cut"
             android:layout_marginBottom="280dp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -61,7 +63,7 @@
             android:id="@+id/textView_rng_number"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Nothing yet..."
+            android:text=""
             android:textAlignment="center"
             android:textSize="35dp"
             android:layout_marginTop="90dp"

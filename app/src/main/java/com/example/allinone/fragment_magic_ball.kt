@@ -5,6 +5,8 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Button
+import android.widget.ImageView
 
 // TODO: Rename parameter arguments, choose names that match
 // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -34,7 +36,30 @@ class fragment_magic_ball : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_magic_ball, container, false)
+        val view =  inflater.inflate(R.layout.fragment_magic_ball, container, false)
+        val button_ask = view.findViewById<Button>(R.id.button_magic_ball)
+        val imageView_ball = view.findViewById<ImageView>(R.id.imageView_magic_ball)
+        var random = 0
+        button_ask.setOnClickListener {
+            random = (1..5).random()
+            if (random == 1){
+                imageView_ball.setImageResource(R.drawable.img_magic_ball_2)
+            }
+            else if (random == 2){
+                imageView_ball.setImageResource(R.drawable.img_magic_ball_3)
+            }
+            else if (random == 3){
+                imageView_ball.setImageResource(R.drawable.img_magic_ball_4)
+            }
+            else if (random == 4){
+                imageView_ball.setImageResource(R.drawable.img_magic_ball_5)
+            }
+            else if (random == 5){
+                imageView_ball.setImageResource(R.drawable.img_magic_ball_6)
+            }
+        }
+
+        return view
     }
 
     companion object {

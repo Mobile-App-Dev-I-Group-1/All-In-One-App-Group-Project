@@ -12,6 +12,7 @@
         >
 
         <TextView
+            android:id="@+id/textView_wheel_title"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="SPIN THE WHEEL"
@@ -25,10 +26,10 @@
 
         <ImageView
             android:id="@+id/imageView_wheel"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            tools:srcCompat="@tools:sample/avatars"
-            android:layout_marginBottom="280dp"
+            android:layout_width="190dp"
+            android:layout_height="190dp"
+            android:src="@drawable/img_wheel"
+            android:layout_marginBottom="320dp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent"
@@ -40,6 +41,7 @@
             android:layout_height="wrap_content"
             android:ems="9"
             android:layout_marginTop="50dp"
+            android:textAlignment="center"
             android:hint="ITEM NAME"
             app:layout_constraintTop_toBottomOf="@+id/imageView_wheel"
             app:layout_constraintStart_toStartOf="parent"

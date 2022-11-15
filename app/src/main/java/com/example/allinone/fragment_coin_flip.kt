@@ -1,5 +1,6 @@
 package com.example.allinone
 
+import com.example.allinone.fragment_history
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
@@ -9,6 +10,8 @@ import android.widget.Button
 import android.widget.ImageView
 import android.widget.TextView
 import android.widget.Toast
+import androidx.activity.viewModels
+import androidx.fragment.app.viewModels
 import kotlinx.coroutines.delay
 import okhttp3.internal.wait
 import java.util.concurrent.TimeUnit
@@ -59,7 +62,7 @@ class fragment_coin_flip : Fragment() {
                 }
                 else if (last_coin == "Heads"){
                     streak = streak + 1
-                    holder = "Tails Again x" + streak.toString() + "!"
+                    holder = "Heads Again x" + streak.toString() + "!"
                     textView_choice.text = holder
                     imageView_coin.setImageResource(R.drawable.img_coin_5)
                     last_coin = "Heads"
