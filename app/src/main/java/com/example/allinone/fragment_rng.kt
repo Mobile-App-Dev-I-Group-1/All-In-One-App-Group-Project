@@ -42,10 +42,12 @@ class fragment_rng : Fragment() {
         var editText = view.findViewById<EditText>(R.id.editText_rng)
         var imageView_rng = view.findViewById<ImageView>(R.id.imageView_rng)
         var textView_rng_number = view.findViewById<TextView>(R.id.textView_rng_number)
+        var textView_rng_title = view.findViewById<TextView>(R.id.textView_rng_title)
         var textView_chance = view.findViewById<TextView>(R.id.textView_chance)
         var random_number = 0
         var chance = 0.00
         var holder2 = ""
+        var rotation = 120
         button_rng.setOnClickListener{
             if (editText.getText().toString().trim().isNotEmpty()) {
             var number = editText.text.toString().toInt()
@@ -56,7 +58,9 @@ class fragment_rng : Fragment() {
             chance = (chance * 1000).roundToInt() / 10.00
             holder2 = chance.toString() + "%"
             textView_chance.text = holder2
-            textView_rng_number.text = random_number.toString()
+            textView_rng_title.text = random_number.toString()
+                imageView_rng.animate().rotation(rotation.toFloat()).setDuration(0).start()
+                rotation = rotation + 120
             }
         }
         return view

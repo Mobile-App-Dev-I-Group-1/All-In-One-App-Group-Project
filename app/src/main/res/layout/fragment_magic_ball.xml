@@ -26,9 +26,9 @@
 
         <ImageView
             android:id="@+id/imageView_magic_ball"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            tools:srcCompat="@tools:sample/avatars"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:src="@drawable/img_magic_ball_1"
             android:layout_marginBottom="280dp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"

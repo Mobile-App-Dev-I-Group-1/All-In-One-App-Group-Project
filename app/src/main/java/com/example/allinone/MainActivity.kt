@@ -14,6 +14,8 @@ import androidx.core.view.isInvisible
 import androidx.core.view.isVisible
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
+import androidx.lifecycle.ViewModel
+import androidx.lifecycle.ViewModelProvider
 import com.google.android.gms.auth.api.signin.GoogleSignIn
 import com.google.android.gms.auth.api.signin.GoogleSignInAccount
 import com.google.android.gms.auth.api.signin.GoogleSignInClient
@@ -49,7 +51,6 @@ public class MainActivity : AppCompatActivity() {
             setContentView(R.layout.activity_main)
             loadFragment(fragment_coin_flip())
             val navBar = findViewById<BottomNavigationView>(R.id.bottom_navigation)
-
             navBar.setOnItemSelectedListener { item ->
                 when (item.itemId) {
                     R.id.coin_flip -> {
@@ -79,7 +80,6 @@ public class MainActivity : AppCompatActivity() {
             }
         }
     }
-
 
     private  fun loadFragment(fragment: Fragment){
         val transaction = supportFragmentManager.beginTransaction()
@@ -146,6 +146,16 @@ public class MainActivity : AppCompatActivity() {
             .addOnCompleteListener(this) {
                 // Update your UI here
             }
+    }
+
+    class Coin : ViewModel() {
+        var coin: String = ""
+        fun getCoinHistory():String{
+            return coin
+        }
+        fun setCoinHistory(lastCoin: String){
+            coin = lastCoin
+        }
     }
 
 

@@ -5,6 +5,8 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.*
+import java.util.*
 
 // TODO: Rename parameter arguments, choose names that match
 // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -34,7 +36,31 @@ class fragment_spin_the_wheel : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_spin_the_wheel, container, false)
+        val view = inflater.inflate(R.layout.fragment_spin_the_wheel, container, false)
+        val button_spin = view.findViewById<Button>(R.id.button_spin_the_wheel)
+        val button_add = view.findViewById<Button>(R.id.button_add_item)
+        val editText_item = view.findViewById<EditText>(R.id.editText_addItem)
+        val imageView_wheel = view.findViewById<ImageView>(R.id.imageView_wheel)
+        val textView_title = view.findViewById<TextView>(R.id.textView_wheel_title)
+        var item = ""
+        var itemArray = Array(20) {""}
+        var itemArrayIndex = 0
+        var rotation = 293
+        button_spin.setOnClickListener {
+            imageView_wheel.animate().rotation(rotation.toFloat()).setDuration(2000).start()
+            rotation = rotation + 330
+            var random_number = (0..itemArrayIndex - 1).random()
+//            Toast.makeText(context, itemArray.get(random_number), Toast.LENGTH_SHORT).show()
+            textView_title.text = itemArray.get(random_number)
+        }
+        button_add.setOnClickListener{
+            item = editText_item.text.toString()
+            itemArray.set(itemArrayIndex, item)
+//            Toast.makeText(context, itemArray.get(itemArrayIndex), Toast.LENGTH_SHORT).show()
+            itemArrayIndex = itemArrayIndex + 1
+        }
+
+        return view
     }
 
     companion object {
