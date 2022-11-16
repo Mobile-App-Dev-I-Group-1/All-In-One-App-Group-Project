@@ -110,5 +110,14 @@ The All-In-One (Heads or Tails/Random Number Generator/Spin The Wheel/ Magic Bal
 ### gif of completed Week 2 progress:
 <img src="./Sprint2.gif" width=500>
 
+-----------------
+
+## Final Week Sprint
+
+### Tasks:
+- [x] finish implementing final touches of all screens
+- [x] finsh algorithms for spin the wheel screen
+- [x] finihs algorithms for magic 8 ball screen 
+
 ### gif of last week progress
 <img src="./Sprint3.gif" width=500>
