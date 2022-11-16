@@ -94,7 +94,7 @@ The All-In-One (Heads or Tails/Random Number Generator/Spin The Wheel/ Magic Bal
 - [x] Connect Navigation to Screens
 
 ### gif of completed Week 1 progress:
-<img src="./Sprint1.gif" width=600>
+<img src="./Sprint1.gif" width=500>
 
 ------------------
 
@@ -108,4 +108,7 @@ The All-In-One (Heads or Tails/Random Number Generator/Spin The Wheel/ Magic Bal
 - [x] create login screen for user
 
 ### gif of completed Week 2 progress:
-<img src="./Sprint2.gif" width=600>
+<img src="./Sprint2.gif" width=500>
+
+### gif of last week progress
+<ing src="./Sprint3.gif" width=500
