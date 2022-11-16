@@ -111,4 +111,4 @@ The All-In-One (Heads or Tails/Random Number Generator/Spin The Wheel/ Magic Bal
 <img src="./Sprint2.gif" width=500>
 
 ### gif of last week progress
-<ing src="./Sprint3.gif" width=500
+<ing src="./Sprint3.gif" width=500>
