@@ -38,7 +38,6 @@ class fragment_history : Fragment() {
         // Inflate the layout for this fragment
         val view = inflater.inflate(R.layout.fragment_history, container, false)
         val textView_coinFlip = view.findViewById<TextView>(R.id.textView_coin_flip_history)
-        textView_coinFlip.text = MainActivity().viewModel.getCoinHistory()
 
         return view
     }

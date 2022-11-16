@@ -39,21 +39,21 @@
             android:id="@+id/editText_addItem"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:ems="9"
-            android:layout_marginTop="50dp"
+            android:ems="6"
+            android:layout_marginTop="90dp"
             android:textAlignment="center"
             android:hint="ITEM NAME"
             app:layout_constraintTop_toBottomOf="@+id/imageView_wheel"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"/>
+            app:layout_constraintEnd_toStartOf="@+id/button_add_item"/>
 
         <Button
             android:id="@+id/button_add_item"
             android:text="Add Item"
             android:layout_width="130dp"
             android:layout_height="50dp"
-            android:layout_marginTop="100dp"
-            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="90dp"
+            app:layout_constraintStart_toEndOf="@id/editText_addItem"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/imageView_wheel"/>
 

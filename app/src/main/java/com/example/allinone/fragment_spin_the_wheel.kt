@@ -55,6 +55,7 @@ class fragment_spin_the_wheel : Fragment() {
         }
         button_add.setOnClickListener{
             item = editText_item.text.toString()
+            editText_item.setText("")
             itemArray.set(itemArrayIndex, item)
 //            Toast.makeText(context, itemArray.get(itemArrayIndex), Toast.LENGTH_SHORT).show()
             itemArrayIndex = itemArrayIndex + 1
