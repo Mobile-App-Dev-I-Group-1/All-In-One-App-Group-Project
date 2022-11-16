@@ -117,7 +117,7 @@ The All-In-One (Heads or Tails/Random Number Generator/Spin The Wheel/ Magic Bal
 ### Tasks:
 - [x] finish implementing final touches of all screens
 - [x] finsh algorithms for spin the wheel screen
-- [x] finihs algorithms for magic 8 ball screen 
+- [x] finish algorithms for magic 8 ball screen 
 
 #### Link to video of completed app progress: https://www.youtube.com/watch?v=nncQ6wfAWNY
 
